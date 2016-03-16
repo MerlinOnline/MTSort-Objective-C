@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MTSort.h"
 #import "MTBlock.h"
+#import "MTSqlite.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -21,7 +22,9 @@ int main(int argc, const char * argv[]) {
 //        [[MTSort sharedSort] showSort];
         
         
-        [[MTBlock sharedMTBlock] showYourCode];
+//        [[MTBlock sharedMTBlock] showYourCode];
+        
+        [[MTSqlite sharedMTSqlite] showSqlite];
         
         
     }

@@ -276,7 +276,13 @@ void sortArray(){
     MTPerson *p3 = [MTPerson personWithAge:24 withName:@"wangwu"];
     MTPerson *p4 = [MTPerson personWithAge:24 withName:@"liwu"];
     MTPerson *p5 = [MTPerson personWithAge:20 withName:@"liwu"];
-    NSArray *array = [NSArray arrayWithObjects:p1,p2,p3,p4,p5, nil];
+    
+    //KVC的使用
+    MTPerson *p6 = [[MTPerson alloc]init];
+    [p6 setValue:@"shabi" forKey:@"name"];
+    [p6 setValue:@"19" forKey:@"age"];
+    
+    NSArray *array = [NSArray arrayWithObjects:p1,p2,p3,p4,p5,p6, nil];
     NSArray *sortedArray = [array sortedArrayUsingSelector:@selector(comparePerson:)];
     
     NSLog(@"排序后:%@",[sortedArray description]);
