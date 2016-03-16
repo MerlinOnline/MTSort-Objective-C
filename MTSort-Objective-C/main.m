@@ -16,7 +16,10 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         
         
+        //排序展示
         [[MTSort sharedSort] showSort];
+        
+        
         
     }
     return 0;
