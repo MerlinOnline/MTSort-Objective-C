@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MTSort.h"
+#import "MTBlock.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -17,8 +18,10 @@ int main(int argc, const char * argv[]) {
         
         
         //排序展示
-        [[MTSort sharedSort] showSort];
+//        [[MTSort sharedSort] showSort];
         
+        
+        [[MTBlock sharedMTBlock] showYourCode];
         
         
     }
