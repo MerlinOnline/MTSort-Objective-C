@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MTSort.h"
 
 int main(int argc, const char * argv[]) {
+    
+    
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        
+        [[MTSort sharedSort] showSort];
+        
     }
     return 0;
 }
+
+
