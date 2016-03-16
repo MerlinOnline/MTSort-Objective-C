@@ -30,6 +30,13 @@
 }
 
 
+struct programmer {
+    char *name;
+    int age;
+    char *phone;
+} proSuccess, proFail;
+
+
 -(void)showYourCode{
     
     showBlockCode();
@@ -40,6 +47,32 @@
     
     showUseVariable();
     
+     NSLog(@"连续求积：%ld",getFactorial(6));
+    
+     NSLog(@"连续求和: %i",getSum(12));
+    
+}
+
+
+//连续求和
+int getSum(int n){
+    if (n < 2 ) {
+        return 1;
+    }else{
+        return n + getSum(n -1 );
+    }
+
+}
+
+
+//阶乘函数
+long int getFactorial(int n)
+{
+    if (n < 2) {
+        return 1;
+    } else {
+        return n * getFactorial(n - 1);
+    }
 }
 
 //简单测试、参数是NSString*的代码块
