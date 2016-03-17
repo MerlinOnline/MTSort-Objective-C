@@ -19,6 +19,7 @@
 @interface MTSqlite(){
     
     sqlite3 *db;
+   
 }
 @end
 
@@ -105,7 +106,6 @@
         NSLog(@"数据库操作数据失败!");
     }
 }
-
 
 
 @end

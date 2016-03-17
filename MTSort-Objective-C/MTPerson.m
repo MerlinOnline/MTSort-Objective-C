@@ -41,7 +41,7 @@
 }
 
 -(NSString *)description{
-    return [NSString stringWithFormat:@"age is %zi , name is %@, car is %@",_age,_name,_car.name];
+    return [NSString stringWithFormat:@"age is %zi , name is %@, sex is %@, car is %@",_age,_name,_sex,_car.name];
 }
 
 

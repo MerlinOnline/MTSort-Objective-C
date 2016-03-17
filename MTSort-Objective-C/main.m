@@ -11,6 +11,7 @@
 #import "MTBlock.h"
 #import "MTSqlite.h"
 #import "MTCoreData.h"
+#import "MTDataSqlite.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -27,7 +28,9 @@ int main(int argc, const char * argv[]) {
         
 //        [[MTSqlite sharedMTSqlite] showSqlite];
         
-        [[MTCoreData sharedMTCoreData] showCoreData];
+//        [[MTCoreData sharedMTCoreData] showCoreData];
+        
+        [[MTDataSqlite sharedMTDataSqlite] showDataSqlite];
         
         
     }

@@ -13,6 +13,7 @@
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, assign) int age;
+@property (nonatomic, copy) NSString *sex;
 @property (nonatomic, strong) MTCart *car;
 
 +(MTPerson *)personWithAge:(int) age withName:(NSString *)name;

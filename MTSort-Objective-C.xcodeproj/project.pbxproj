@@ -14,6 +14,7 @@
 		1843CED41C9A405E009C11C5 /* MTBook+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CECF1C9A405E009C11C5 /* MTBook+CoreDataProperties.m */; };
 		1843CED51C9A405E009C11C5 /* MTBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CED11C9A405E009C11C5 /* MTBook.m */; };
 		1843CED91C9A40AC009C11C5 /* MTCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CED81C9A40AC009C11C5 /* MTCoreData.m */; };
+		1843CEDF1C9A820A009C11C5 /* MTDataSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CEDE1C9A820A009C11C5 /* MTDataSqlite.m */; };
 		18A40E391C98FA490003CC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E381C98FA490003CC30 /* main.m */; };
 		18A40E411C98FB240003CC30 /* MTSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E401C98FB240003CC30 /* MTSort.m */; };
 		18A40E441C9901A80003CC30 /* MTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E431C9901A80003CC30 /* MTPerson.m */; };
@@ -48,6 +49,8 @@
 		1843CED11C9A405E009C11C5 /* MTBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBook.m; sourceTree = "<group>"; };
 		1843CED71C9A40AC009C11C5 /* MTCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCoreData.h; sourceTree = "<group>"; };
 		1843CED81C9A40AC009C11C5 /* MTCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCoreData.m; sourceTree = "<group>"; };
+		1843CEDD1C9A820A009C11C5 /* MTDataSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataSqlite.h; sourceTree = "<group>"; };
+		1843CEDE1C9A820A009C11C5 /* MTDataSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataSqlite.m; sourceTree = "<group>"; };
 		18A40E351C98FA490003CC30 /* MTSort-Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MTSort-Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A40E381C98FA490003CC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A40E3F1C98FB230003CC30 /* MTSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSort.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				1843CED61C9A4079009C11C5 /* coreData */,
 				18A40E4B1C995CCB0003CC30 /* MTSqlite.h */,
 				18A40E4C1C995CCB0003CC30 /* MTSqlite.m */,
+				1843CEDD1C9A820A009C11C5 /* MTDataSqlite.h */,
+				1843CEDE1C9A820A009C11C5 /* MTDataSqlite.m */,
 				18A40E481C9941F70003CC30 /* MTBlock.h */,
 				18A40E491C9941F70003CC30 /* MTBlock.m */,
 				18A40E3F1C98FB230003CC30 /* MTSort.h */,
@@ -189,6 +194,7 @@
 			files = (
 				18A40E4A1C9941F70003CC30 /* MTBlock.m in Sources */,
 				18A40E411C98FB240003CC30 /* MTSort.m in Sources */,
+				1843CEDF1C9A820A009C11C5 /* MTDataSqlite.m in Sources */,
 				18A40E441C9901A80003CC30 /* MTPerson.m in Sources */,
 				1843CED91C9A40AC009C11C5 /* MTCoreData.m in Sources */,
 				18A40E471C9905040003CC30 /* MTCart.m in Sources */,
