@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="MTBook" representedClassName="MTBook" syncable="YES">
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MTStudent" inverseName="book" inverseEntity="MTStudent" syncable="YES"/>
+    </entity>
+    <entity name="MTStudent" representedClassName="MTStudent" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="book" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MTBook" inverseName="student" inverseEntity="MTBook" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MTStudent" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="MTBook" positionX="-54" positionY="18" width="128" height="75"/>
+    </elements>
+</model>

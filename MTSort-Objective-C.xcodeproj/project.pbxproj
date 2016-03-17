@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1843CEC61C9A3EB7009C11C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1843CEC51C9A3EB7009C11C5 /* CoreData.framework */; };
+		1843CEC91C9A3EF0009C11C5 /* MTTestData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1843CEC71C9A3EF0009C11C5 /* MTTestData.xcdatamodeld */; };
+		1843CED21C9A405E009C11C5 /* MTStudent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CECB1C9A405E009C11C5 /* MTStudent+CoreDataProperties.m */; };
+		1843CED31C9A405E009C11C5 /* MTStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CECD1C9A405E009C11C5 /* MTStudent.m */; };
+		1843CED41C9A405E009C11C5 /* MTBook+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CECF1C9A405E009C11C5 /* MTBook+CoreDataProperties.m */; };
+		1843CED51C9A405E009C11C5 /* MTBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CED11C9A405E009C11C5 /* MTBook.m */; };
+		1843CED91C9A40AC009C11C5 /* MTCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843CED81C9A40AC009C11C5 /* MTCoreData.m */; };
 		18A40E391C98FA490003CC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E381C98FA490003CC30 /* main.m */; };
 		18A40E411C98FB240003CC30 /* MTSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E401C98FB240003CC30 /* MTSort.m */; };
 		18A40E441C9901A80003CC30 /* MTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A40E431C9901A80003CC30 /* MTPerson.m */; };
@@ -29,6 +36,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1843CEC51C9A3EB7009C11C5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1843CEC81C9A3EF0009C11C5 /* MTTestData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTTestData.xcdatamodel; sourceTree = "<group>"; };
+		1843CECA1C9A405E009C11C5 /* MTStudent+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTStudent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1843CECB1C9A405E009C11C5 /* MTStudent+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTStudent+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1843CECC1C9A405E009C11C5 /* MTStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStudent.h; sourceTree = "<group>"; };
+		1843CECD1C9A405E009C11C5 /* MTStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStudent.m; sourceTree = "<group>"; };
+		1843CECE1C9A405E009C11C5 /* MTBook+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTBook+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1843CECF1C9A405E009C11C5 /* MTBook+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTBook+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1843CED01C9A405E009C11C5 /* MTBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBook.h; sourceTree = "<group>"; };
+		1843CED11C9A405E009C11C5 /* MTBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBook.m; sourceTree = "<group>"; };
+		1843CED71C9A40AC009C11C5 /* MTCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCoreData.h; sourceTree = "<group>"; };
+		1843CED81C9A40AC009C11C5 /* MTCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCoreData.m; sourceTree = "<group>"; };
 		18A40E351C98FA490003CC30 /* MTSort-Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MTSort-Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A40E381C98FA490003CC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A40E3F1C98FB230003CC30 /* MTSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSort.h; sourceTree = "<group>"; };
@@ -49,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843CEC61C9A3EB7009C11C5 /* CoreData.framework in Frameworks */,
 				18A40E4F1C995D360003CC30 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,12 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1843CED61C9A4079009C11C5 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				1843CEC71C9A3EF0009C11C5 /* MTTestData.xcdatamodeld */,
+				1843CECE1C9A405E009C11C5 /* MTBook+CoreDataProperties.h */,
+				1843CECF1C9A405E009C11C5 /* MTBook+CoreDataProperties.m */,
+				1843CED01C9A405E009C11C5 /* MTBook.h */,
+				1843CED11C9A405E009C11C5 /* MTBook.m */,
+				1843CECA1C9A405E009C11C5 /* MTStudent+CoreDataProperties.h */,
+				1843CECB1C9A405E009C11C5 /* MTStudent+CoreDataProperties.m */,
+				1843CECC1C9A405E009C11C5 /* MTStudent.h */,
+				1843CECD1C9A405E009C11C5 /* MTStudent.m */,
+			);
+			name = coreData;
+			sourceTree = "<group>";
+		};
 		18A40E2C1C98FA490003CC30 = {
 			isa = PBXGroup;
 			children = (
 				18A40E371C98FA490003CC30 /* MTSort-Objective-C */,
 				18A40E361C98FA490003CC30 /* Products */,
 				18A40E4E1C995D360003CC30 /* libsqlite3.tbd */,
+				1843CEC51C9A3EB7009C11C5 /* CoreData.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				18A40E381C98FA490003CC30 /* main.m */,
+				1843CED71C9A40AC009C11C5 /* MTCoreData.h */,
+				1843CED81C9A40AC009C11C5 /* MTCoreData.m */,
+				1843CED61C9A4079009C11C5 /* coreData */,
 				18A40E4B1C995CCB0003CC30 /* MTSqlite.h */,
 				18A40E4C1C995CCB0003CC30 /* MTSqlite.m */,
 				18A40E481C9941F70003CC30 /* MTBlock.h */,
@@ -150,9 +190,15 @@
 				18A40E4A1C9941F70003CC30 /* MTBlock.m in Sources */,
 				18A40E411C98FB240003CC30 /* MTSort.m in Sources */,
 				18A40E441C9901A80003CC30 /* MTPerson.m in Sources */,
+				1843CED91C9A40AC009C11C5 /* MTCoreData.m in Sources */,
 				18A40E471C9905040003CC30 /* MTCart.m in Sources */,
+				1843CED21C9A405E009C11C5 /* MTStudent+CoreDataProperties.m in Sources */,
+				1843CEC91C9A3EF0009C11C5 /* MTTestData.xcdatamodeld in Sources */,
 				18A40E4D1C995CCB0003CC30 /* MTSqlite.m in Sources */,
+				1843CED41C9A405E009C11C5 /* MTBook+CoreDataProperties.m in Sources */,
+				1843CED51C9A405E009C11C5 /* MTBook.m in Sources */,
 				18A40E391C98FA490003CC30 /* main.m in Sources */,
+				1843CED31C9A405E009C11C5 /* MTStudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +320,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1843CEC71C9A3EF0009C11C5 /* MTTestData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1843CEC81C9A3EF0009C11C5 /* MTTestData.xcdatamodel */,
+			);
+			currentVersion = 1843CEC81C9A3EF0009C11C5 /* MTTestData.xcdatamodel */;
+			path = MTTestData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18A40E2D1C98FA490003CC30 /* Project object */;
 }
